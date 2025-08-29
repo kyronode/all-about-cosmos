@@ -1,0 +1,1728 @@
+{
+  "genesis_time": "2024-11-20T17:39:07.084239008Z",
+  "chain_id": "diamond-1",
+  "initial_height": "1",
+  "consensus_params": {
+    "block": {
+      "max_bytes": "22020096",
+      "max_gas": "-1"
+    },
+    "evidence": {
+      "max_age_num_blocks": "100000",
+      "max_age_duration": "172800000000000",
+      "max_bytes": "1048576"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    },
+    "version": {
+      "app": "0"
+    },
+    "abci": {
+      "vote_extensions_enable_height": "1"
+    }
+  },
+  "app_hash": "",
+  "app_state": {
+    "auth": {
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      },
+      "accounts": [
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "zen1qmjm0lvm6hmrsm4lv0e9ph6nse3l0g57tllvaf",
+          "pub_key": null,
+          "account_number": "34",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "zen19cqmzezm3u98gewx2k5pkkcpectpvp3vmawsfn",
+          "pub_key": {
+            "@type": "/cosmos.crypto.secp256k1.PubKey",
+            "key": "A1qLxH3AOGReKoT0ghDoEAEK5kHdsAtuF4hHpbXF1eWg"
+          },
+          "account_number": "21",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "zen1xyx3ur7z6xgnklv8508p7zwd0ct0960rwahr5z",
+          "pub_key": null,
+          "account_number": "39",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "zen1xaglsm4lawm8twg69tn8rathj2g45n7ep48ghh",
+          "pub_key": {
+            "@type": "/cosmos.crypto.secp256k1.PubKey",
+            "key": "A+fdpreGduzA7mmUOmunI2SxTiwRggJ2CT3OzeR0sMJn"
+          },
+          "account_number": "22",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "zen180w660gz2qz8s0drhr5k4646895g7gcljrtsa8",
+          "pub_key": {
+            "@type": "/cosmos.crypto.secp256k1.PubKey",
+            "key": "AixAadcfr0PE1ynQzDYZY0RM60i4VqyS1T4vfhPXMMkA"
+          },
+          "account_number": "20",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "zen187qlg50zd3jlapft0dlfgphhm67pac9vxs8xd8",
+          "pub_key": {
+            "@type": "/cosmos.crypto.secp256k1.PubKey",
+            "key": "A0M9KkrJO3rtJHWSbHanZdJ6QAZzi/OvkWxGsjHj80dN"
+          },
+          "account_number": "26",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "zen1f89gq6sqn64j52l56ustphkry5fdtn4wvwpae3",
+          "pub_key": null,
+          "account_number": "17",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "zen1fhln2vnudxddpymqy82vzqhnlsfh4stjd683ze",
+          "pub_key": null,
+          "account_number": "36",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "zen1fmqq8hger6sqgtg34ekqev9k55pcgh63xawndg",
+          "pub_key": {
+            "@type": "/cosmos.crypto.secp256k1.PubKey",
+            "key": "AwJyEzeFEz3NQSrLGOI/lfckUaPfueRhVy/x2C8RDiEp"
+          },
+          "account_number": "23",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.ModuleAccount",
+          "base_account": {
+            "address": "zen1fl48vsnmsdzcv85q5d2q4z5ajdha8yu30kmw4x",
+            "pub_key": null,
+            "account_number": "8",
+            "sequence": "0"
+          },
+          "name": "bonded_tokens_pool",
+          "permissions": [
+            "burner",
+            "staking"
+          ]
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "zen1flhdyaf4juc85heun7h87s8q8rpfeyrt4cqv80",
+          "pub_key": null,
+          "account_number": "31",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "zen12ppadg7mwmtf9e4mm8wvk2hkvduqh43vhn0zjr",
+          "pub_key": {
+            "@type": "/cosmos.crypto.secp256k1.PubKey",
+            "key": "A9ckjK/s+SMbsJQmVFG/TnMwKzlHFlR5bVbdu6WmOQJA"
+          },
+          "account_number": "14",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "zen1tygk5gzehds30xflp5rj3p05rryt2vcwmw3eju",
+          "pub_key": {
+            "@type": "/cosmos.crypto.secp256k1.PubKey",
+            "key": "A3QpkW5KTxMj/zRAGsjJhWk3S6yjp07fK9K3SDBjKXIZ"
+          },
+          "account_number": "2",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.ModuleAccount",
+          "base_account": {
+            "address": "zen1tygms3xhhs3yv487phx3dw4a95jn7t7lmk8lrj",
+            "pub_key": null,
+            "account_number": "9",
+            "sequence": "0"
+          },
+          "name": "not_bonded_tokens_pool",
+          "permissions": [
+            "burner",
+            "staking"
+          ]
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "zen1t8dzyr806kajqhgmvt6zzleay92ma08se0dma0",
+          "pub_key": {
+            "@type": "/cosmos.crypto.secp256k1.PubKey",
+            "key": "ApenD9HyehJp8A9SUZ5BhhyTAIKP/hwYrVOPs6TpqsJF"
+          },
+          "account_number": "15",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "zen1vxl32yly7zgrssnxnhlk4dcryylmz6zvkszclh",
+          "pub_key": {
+            "@type": "/cosmos.crypto.secp256k1.PubKey",
+            "key": "AvMOEl8g+Lx9pG8n2L1MNpR/0aLbeKwlIZ8kBia3Hn6Y"
+          },
+          "account_number": "12",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "zen1vg3nv4xv7v3p9tr5svj33wvhsemdg6k5n0237r",
+          "pub_key": {
+            "@type": "/cosmos.crypto.secp256k1.PubKey",
+            "key": "Aiw6zvTR3Bd4kluwnjyDd1m8fp/CpsmpV+WgtVhYo1nx"
+          },
+          "account_number": "18",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "zen1vvex57wtgl7h26mnyzzk0npctz4jqunla4qrzd",
+          "pub_key": {
+            "@type": "/cosmos.crypto.secp256k1.PubKey",
+            "key": "Apsp9KQeSD+3jV28wkpjGH3o8kxWBp0J0GcbQCHhonSy"
+          },
+          "account_number": "19",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "zen1v7tgr4kr2nyrz2u3lp673zey037lwhv5tp4faf",
+          "pub_key": {
+            "@type": "/cosmos.crypto.secp256k1.PubKey",
+            "key": "AqO6iSItMon67e/8WoSF/mAQkXFdrHutlU1sr5gYI14S"
+          },
+          "account_number": "29",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.ModuleAccount",
+          "base_account": {
+            "address": "zen1dz0k5cnnsnraevkuc9y8u4qzy0nhhhuapnzczk",
+            "pub_key": null,
+            "account_number": "11",
+            "sequence": "0"
+          },
+          "name": "identity",
+          "permissions": []
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "zen1dy5mleccrc0sq3gflxklc3v32269c5704jrz8z",
+          "pub_key": {
+            "@type": "/cosmos.crypto.secp256k1.PubKey",
+            "key": "AlZqYQ2Gj+mgweXXA/y9pg0xsyMzXauJzuWiso7O8scE"
+          },
+          "account_number": "13",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "zen1dk2mv83r9l9sp3h4h2l8dh8j5dz6w0kpvlvqd2",
+          "pub_key": null,
+          "account_number": "41",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "zen1dht0qe0209tc8dycp8cfe6s7qt4z7eck0jqv6s",
+          "pub_key": {
+            "@type": "/cosmos.crypto.secp256k1.PubKey",
+            "key": "AiM5w9SbhmGQT9V4F67S4lifo/e33xGXlOLkwtEXOQr3"
+          },
+          "account_number": "25",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "zen1dlhdfv2y0rdj64wcpqxdufpfpvx7lx0ld30m0r",
+          "pub_key": null,
+          "account_number": "35",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "zen1wa2l79s9v9fxl0ergelvv55nmfdh6ms052c9rq",
+          "pub_key": {
+            "@type": "/cosmos.crypto.secp256k1.PubKey",
+            "key": "Ase2hfPS8u/EZSYa/orey1YK4nDXDaem+UlVJX5Ak3Cp"
+          },
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "zen109m25m36sm9wgqpveax8h7kx9ysggvfx5e8rjl",
+          "pub_key": {
+            "@type": "/cosmos.crypto.secp256k1.PubKey",
+            "key": "A3qCt0nOqK5uyQ4xdSCL1yecDetrhI79CeabVC6jQSRK"
+          },
+          "account_number": "28",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.ModuleAccount",
+          "base_account": {
+            "address": "zen10d07y265gmmuvt4z0w9aw880jnsr700jq0py6z",
+            "pub_key": null,
+            "account_number": "10",
+            "sequence": "0"
+          },
+          "name": "gov",
+          "permissions": [
+            "burner"
+          ]
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "zen10apemudn3dku52rly8z5zuj3qaqydp2c9n4tzt",
+          "pub_key": null,
+          "account_number": "32",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "zen13umpmyy06c6jd8gnk9lmxx0vd9v3v48pk7sns5",
+          "pub_key": {
+            "@type": "/cosmos.crypto.secp256k1.PubKey",
+            "key": "A67soPtk7eqx6TKXjnNqyrUv+BJt9/KAeOiTAY2yJs/L"
+          },
+          "account_number": "3",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "zen1jp6avxvjygcakh2l326kg66xp5nczxh5lfnfdl",
+          "pub_key": null,
+          "account_number": "33",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.ModuleAccount",
+          "base_account": {
+            "address": "zen1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8ajka9w",
+            "pub_key": null,
+            "account_number": "7",
+            "sequence": "0"
+          },
+          "name": "distribution",
+          "permissions": []
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "zen1n2wr6ze2kjy2wrzkln29fjkqc3ne2guu0ygupd",
+          "pub_key": {
+            "@type": "/cosmos.crypto.secp256k1.PubKey",
+            "key": "AxWTjKSQtTKJzVnwIfm81JIRhjoLv+X5hPJjbCaII3vA"
+          },
+          "account_number": "24",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "zen143p64ce3rgph8ql6p3a895cfmvgj483d2s7cp7",
+          "pub_key": null,
+          "account_number": "37",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "zen1k6vc6vhp6e6l3rxaluqpyz8h",
+          "pub_key": null,
+          "account_number": "16",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "zen1hkr02dfzjzlmna2vlxpdvzzxdrteux0sqe398f",
+          "pub_key": {
+            "@type": "/cosmos.crypto.secp256k1.PubKey",
+            "key": "AkDmClOaxXnJyNHCcO4oeYnIVbBceJLvGbblD0tv7zhx"
+          },
+          "account_number": "27",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "zen1ct0dsc9yt2rtgk6eprvr724spr9x6dnhsf6kty",
+          "pub_key": {
+            "@type": "/cosmos.crypto.secp256k1.PubKey",
+            "key": "AoDW8sWZ5kD8g/WupxSOsLT8LqmVGh8mW05ES0+kCda8"
+          },
+          "account_number": "4",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "zen16r98lth5apa2686hyx8gxwc2mmpk799dm5rfa5",
+          "pub_key": null,
+          "account_number": "38",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.ModuleAccount",
+          "base_account": {
+            "address": "zen1m3h30wlvsf8llruxtpukdvsy0km2kum8ju4et3",
+            "pub_key": null,
+            "account_number": "5",
+            "sequence": "0"
+          },
+          "name": "mint",
+          "permissions": [
+            "burner",
+            "minter"
+          ]
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "zen1apxnaymsp7drsjp9dhej05j5yjz8q0zjqxxyap",
+          "pub_key": {
+            "@type": "/cosmos.crypto.secp256k1.PubKey",
+            "key": "AtQxUtvBcTrJzuVnhXCixnoEbQoKeHUN2/+NqFF4iNd9"
+          },
+          "account_number": "1",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "zen1afw36f0yrnfvl2r9ymycxx2r4rgqd3kcklqch9",
+          "pub_key": null,
+          "account_number": "30",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "zen17q3j6x22nzkucfnqhp6asdk7mptgplcyq4p59y",
+          "pub_key": null,
+          "account_number": "40",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.ModuleAccount",
+          "base_account": {
+            "address": "zen17xpfvakm2amg962yls6f84z3kell8c5l253p8v",
+            "pub_key": null,
+            "account_number": "6",
+            "sequence": "0"
+          },
+          "name": "fee_collector",
+          "permissions": []
+        }
+      ]
+    },
+    "authz": {
+      "authorization": []
+    },
+    "bank": {
+      "params": {
+        "send_enabled": [],
+        "default_send_enabled": true
+      },
+      "balances": [
+        {
+          "address": "zen1qmjm0lvm6hmrsm4lv0e9ph6nse3l0g57tllvaf",
+          "coins": [
+            {
+              "denom": "urock",
+              "amount": "7760000000000"
+            }
+          ]
+        },
+        {
+          "address": "zen1xyx3ur7z6xgnklv8508p7zwd0ct0960rwahr5z",
+          "coins": [
+            {
+              "denom": "urock",
+              "amount": "2000000000000"
+            }
+          ]
+        },
+        {
+          "address": "zen1f89gq6sqn64j52l56ustphkry5fdtn4wvwpae3",
+          "coins": [
+            {
+              "denom": "urock",
+              "amount": "30000000000000"
+            }
+          ]
+        },
+        {
+          "address": "zen1flhdyaf4juc85heun7h87s8q8rpfeyrt4cqv80",
+          "coins": [
+            {
+              "denom": "urock",
+              "amount": "30000000000000"
+            }
+          ]
+        },
+        {
+          "address": "zen12ppadg7mwmtf9e4mm8wvk2hkvduqh43vhn0zjr",
+          "coins": [
+            {
+              "denom": "urock",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "zen1tygk5gzehds30xflp5rj3p05rryt2vcwmw3eju",
+          "coins": [
+            {
+              "denom": "urock",
+              "amount": "10000000000000"
+            }
+          ]
+        },
+        {
+          "address": "zen1vxl32yly7zgrssnxnhlk4dcryylmz6zvkszclh",
+          "coins": [
+            {
+              "denom": "urock",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "zen1dy5mleccrc0sq3gflxklc3v32269c5704jrz8z",
+          "coins": [
+            {
+              "denom": "urock",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "zen1dk2mv83r9l9sp3h4h2l8dh8j5dz6w0kpvlvqd2",
+          "coins": [
+            {
+              "denom": "urock",
+              "amount": "110000000000000"
+            }
+          ]
+        },
+        {
+          "address": "zen1dlhdfv2y0rdj64wcpqxdufpfpvx7lx0ld30m0r",
+          "coins": [
+            {
+              "denom": "urock",
+              "amount": "229997000000000"
+            }
+          ]
+        },
+        {
+          "address": "zen10apemudn3dku52rly8z5zuj3qaqydp2c9n4tzt",
+          "coins": [
+            {
+              "denom": "urock",
+              "amount": "70000000000000"
+            }
+          ]
+        },
+        {
+          "address": "zen13umpmyy06c6jd8gnk9lmxx0vd9v3v48pk7sns5",
+          "coins": [
+            {
+              "denom": "urock",
+              "amount": "10000000000000"
+            }
+          ]
+        },
+        {
+          "address": "zen1jp6avxvjygcakh2l326kg66xp5nczxh5lfnfdl",
+          "coins": [
+            {
+              "denom": "urock",
+              "amount": "57095184000000"
+            }
+          ]
+        },
+        {
+          "address": "zen143p64ce3rgph8ql6p3a895cfmvgj483d2s7cp7",
+          "coins": [
+            {
+              "denom": "urock",
+              "amount": "4644816000000"
+            }
+          ]
+        },
+        {
+          "address": "zen1ct0dsc9yt2rtgk6eprvr724spr9x6dnhsf6kty",
+          "coins": [
+            {
+              "denom": "urock",
+              "amount": "10000000000000"
+            }
+          ]
+        },
+        {
+          "address": "zen16r98lth5apa2686hyx8gxwc2mmpk799dm5rfa5",
+          "coins": [
+            {
+              "denom": "urock",
+              "amount": "200000000000000"
+            }
+          ]
+        },
+        {
+          "address": "zen1m3h30wlvsf8llruxtpukdvsy0km2kum8ju4et3",
+          "coins": [
+            {
+              "denom": "urock",
+              "amount": "80000000000000"
+            }
+          ]
+        },
+        {
+          "address": "zen1apxnaymsp7drsjp9dhej05j5yjz8q0zjqxxyap",
+          "coins": [
+            {
+              "denom": "urock",
+              "amount": "10000000000000"
+            }
+          ]
+        },
+        {
+          "address": "zen1afw36f0yrnfvl2r9ymycxx2r4rgqd3kcklqch9",
+          "coins": [
+            {
+              "denom": "urock",
+              "amount": "18500000000000"
+            }
+          ]
+        },
+        {
+          "address": "zen17q3j6x22nzkucfnqhp6asdk7mptgplcyq4p59y",
+          "coins": [
+            {
+              "denom": "urock",
+              "amount": "120000000000000"
+            }
+          ]
+        }
+      ],
+      "supply": [
+        {
+          "denom": "urock",
+          "amount": "1000000000000000"
+        }
+      ],
+      "denom_metadata": [
+        {
+          "description": "The native staking token of the Zenrock blockchain",
+          "denom_units": [
+            {
+              "denom": "urock",
+              "exponent": 0,
+              "aliases": [
+                "microrock"
+              ]
+            },
+            {
+              "denom": "rock",
+              "exponent": 6,
+              "aliases": []
+            }
+          ],
+          "base": "urock",
+          "display": "rock",
+          "name": "ROCK",
+          "symbol": "ROCK",
+          "uri": "",
+          "uri_hash": ""
+        }
+      ],
+      "send_enabled": []
+    },
+    "capability": {
+      "index": "3",
+      "owners": [
+        {
+          "index": "1",
+          "index_owners": {
+            "owners": [
+              {
+                "module": "ibc",
+                "name": "ports/transfer"
+              },
+              {
+                "module": "transfer",
+                "name": "ports/transfer"
+              }
+            ]
+          }
+        },
+        {
+          "index": "2",
+          "index_owners": {
+            "owners": [
+              {
+                "module": "ibc",
+                "name": "ports/icahost"
+              },
+              {
+                "module": "icahost",
+                "name": "ports/icahost"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "circuit": {
+      "account_permissions": [],
+      "disabled_type_urls": []
+    },
+    "crisis": {
+      "constant_fee": {
+        "denom": "urock",
+        "amount": "1000000000"
+      }
+    },
+    "distribution": {
+      "params": {
+        "community_tax": "0.020000000000000000",
+        "base_proposer_reward": "0.000000000000000000",
+        "bonus_proposer_reward": "0.000000000000000000",
+        "withdraw_addr_enabled": false
+      },
+      "fee_pool": {
+        "community_pool": []
+      },
+      "delegator_withdraw_infos": [],
+      "previous_proposer": "",
+      "outstanding_rewards": [],
+      "validator_accumulated_commissions": [],
+      "validator_historical_rewards": [],
+      "validator_current_rewards": [],
+      "delegator_starting_infos": [],
+      "validator_slash_events": []
+    },
+    "evidence": {
+      "evidence": []
+    },
+    "feegrant": {
+      "allowances": []
+    },
+    "feeibc": {
+      "identified_fees": [],
+      "fee_enabled_channels": [],
+      "registered_payees": [],
+      "registered_counterparty_payees": [],
+      "forward_relayers": []
+    },
+    "genutil": {
+      "gen_txs": [
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/zrchain.validation.MsgCreateValidator",
+                "description": {
+                  "moniker": "validator-2",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "zenvaloper1tygk5gzehds30xflp5rj3p05rryt2vcw304cpx",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "u81IWL6vsh4m3OUnKhMf/EP53i5vAGw/y6Ad5xHHmAI="
+                },
+                "value": {
+                  "denom": "urock",
+                  "amount": "1000000000000"
+                }
+              }
+            ],
+            "memo": "358bda3b231b7dbfaf2fab7c37337ad5bf27c733@192.168.0.66:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A3QpkW5KTxMj/zRAGsjJhWk3S6yjp07fK9K3SDBjKXIZ"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "6AZPRw4ZcClOhagqVjxWDwfbOw4n/NpmC7xsqEIm7LVKzNEh7pLf5Ov9qLVRMO81LzaO6+cqVhvS3cWfIipJWw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/zrchain.validation.MsgCreateValidator",
+                "description": {
+                  "moniker": "validator-3",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "zenvaloper13umpmyy06c6jd8gnk9lmxx0vd9v3v48pul5jrw",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "MdONFsA1xiace3FU1TaZToXXl1GlTp1xUYesn7pmO+g="
+                },
+                "value": {
+                  "denom": "urock",
+                  "amount": "1000000000000"
+                }
+              }
+            ],
+            "memo": "5045d5657a604d280795c96e94ecdd8722bcd5db@192.168.0.66:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A67soPtk7eqx6TKXjnNqyrUv+BJt9/KAeOiTAY2yJs/L"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "xeybxDaWZGlIZ2ABvzLgwLsFkS4VXP2giqFRVUNZ3x1tx4btqFA2/Wk9mTQURrKExgVnEzZAcqdernZMcfXRnw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/zrchain.validation.MsgCreateValidator",
+                "description": {
+                  "moniker": "validator-4",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "zenvaloper1ct0dsc9yt2rtgk6eprvr724spr9x6dnh6g7hc7",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "U8aDwkPVqpOZU4QFfBHYYeJ5BbMA4lKolcnbdfCnorU="
+                },
+                "value": {
+                  "denom": "urock",
+                  "amount": "1000000000000"
+                }
+              }
+            ],
+            "memo": "ae9fd134770018d222dcab3ee258d4a4416b5318@192.168.0.66:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AoDW8sWZ5kD8g/WupxSOsLT8LqmVGh8mW05ES0+kCda8"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "fBBbnmhSoun7Pgu5sBWeS6y8/UwephArTuwgmPpr1kQ13+aJ+wrLAKg4nxLJAaxCM+Ay0rKMG7C3epPwB56Ceg=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/zrchain.validation.MsgCreateValidator",
+                "description": {
+                  "moniker": "validator-1",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "zenvaloper1apxnaymsp7drsjp9dhej05j5yjz8q0zj28z9wm",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "IlAu1TvzbeNApqf2wjzKnyWT36dQUcLLaFDwq9wIckk="
+                },
+                "value": {
+                  "denom": "urock",
+                  "amount": "1000000000000"
+                }
+              }
+            ],
+            "memo": "be87c2f05a4a9ce2e5d5945a17d8ad06b950e8f9@192.168.0.66:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AtQxUtvBcTrJzuVnhXCixnoEbQoKeHUN2/+NqFF4iNd9"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "czjW0lH/SUiUw1BtHTNkg+hZlpbk0xTRnVHJn3Q2hUtP7L6Xv85MP7OAmi+XtHjVa9wHJIuwllCc5hNC5ngfYg=="
+          ]
+        }
+      ]
+    },
+    "gov": {
+      "starting_proposal_id": "1",
+      "deposits": [],
+      "votes": [],
+      "proposals": [],
+      "deposit_params": null,
+      "voting_params": null,
+      "tally_params": null,
+      "params": {
+        "min_deposit": [
+          {
+            "denom": "urock",
+            "amount": "1000000000"
+          }
+        ],
+        "max_deposit_period": "172800s",
+        "voting_period": "345600s",
+        "quorum": "0.334000000000000000",
+        "threshold": "0.500000000000000000",
+        "veto_threshold": "0.334000000000000000",
+        "min_initial_deposit_ratio": "0.000000000000000000",
+        "proposal_cancel_ratio": "0.500000000000000000",
+        "proposal_cancel_dest": "",
+        "expedited_voting_period": "86400s",
+        "expedited_threshold": "0.667000000000000000",
+        "expedited_min_deposit": [
+          {
+            "denom": "urock",
+            "amount": "5000000000"
+          }
+        ],
+        "burn_vote_quorum": false,
+        "burn_proposal_deposit_prevote": false,
+        "burn_vote_veto": true,
+        "min_deposit_ratio": "0.010000000000000000"
+      },
+      "constitution": ""
+    },
+    "group": {
+      "group_seq": "0",
+      "groups": [],
+      "group_members": [],
+      "group_policy_seq": "0",
+      "group_policies": [],
+      "proposal_seq": "0",
+      "proposals": [],
+      "votes": []
+    },
+    "ibc": {
+      "client_genesis": {
+        "clients": [],
+        "clients_consensus": [],
+        "clients_metadata": [],
+        "params": {
+          "allowed_clients": [
+            "*"
+          ]
+        },
+        "create_localhost": false,
+        "next_client_sequence": "0"
+      },
+      "connection_genesis": {
+        "connections": [],
+        "client_connection_paths": [],
+        "next_connection_sequence": "0",
+        "params": {
+          "max_expected_time_per_block": "30000000000"
+        }
+      },
+      "channel_genesis": {
+        "channels": [],
+        "acknowledgements": [],
+        "commitments": [],
+        "receipts": [],
+        "send_sequences": [],
+        "recv_sequences": [],
+        "ack_sequences": [],
+        "next_channel_sequence": "0",
+        "params": {
+          "upgrade_timeout": {
+            "height": {
+              "revision_number": "0",
+              "revision_height": "0"
+            },
+            "timestamp": "600000000000"
+          }
+        }
+      }
+    },
+    "identity": {
+      "params": {
+        "keyring_creation_fee": "10000000000"
+      },
+      "port_id": "identity",
+      "keyrings": [
+        {
+          "address": "keyring1k6vc6vhp6e6l3rxalue9v4ux",
+          "creator": "zen1wa2l79s9v9fxl0ergelvv55nmfdh6ms052c9rq",
+          "description": "Zenrock MPC",
+          "admins": [
+            "zen1wa2l79s9v9fxl0ergelvv55nmfdh6ms052c9rq"
+          ],
+          "parties": [
+            "zen1vxl32yly7zgrssnxnhlk4dcryylmz6zvkszclh",
+            "zen1dy5mleccrc0sq3gflxklc3v32269c5704jrz8z",
+            "zen12ppadg7mwmtf9e4mm8wvk2hkvduqh43vhn0zjr"
+          ],
+          "party_threshold": 3,
+          "key_req_fee": "75000000",
+          "sig_req_fee": "50000000",
+          "is_active": true
+        }
+      ],
+      "workspaces": [
+        {
+          "address": "workspace10j06zdk5gyl6v9ekzwem0v",
+          "creator": "zen1t8dzyr806kajqhgmvt6zzleay92ma08se0dma0",
+          "owners": [
+            "zen1t8dzyr806kajqhgmvt6zzleay92ma08se0dma0"
+          ],
+          "child_workspaces": [],
+          "admin_policy_id": "0",
+          "sign_policy_id": "0",
+          "alias": ""
+        },
+        {
+          "address": "workspace14t5fls8s8c54ntjdcxh5x9",
+          "creator": "zen1fmqq8hger6sqgtg34ekqev9k55pcgh63xawndg",
+          "owners": [
+            "zen1fmqq8hger6sqgtg34ekqev9k55pcgh63xawndg"
+          ],
+          "child_workspaces": [],
+          "admin_policy_id": "0",
+          "sign_policy_id": "0",
+          "alias": ""
+        },
+        {
+          "address": "workspace15yglyawv9e6csqqqz77euh",
+          "creator": "zen187qlg50zd3jlapft0dlfgphhm67pac9vxs8xd8",
+          "owners": [
+            "zen187qlg50zd3jlapft0dlfgphhm67pac9vxs8xd8"
+          ],
+          "child_workspaces": [],
+          "admin_policy_id": "0",
+          "sign_policy_id": "0",
+          "alias": ""
+        },
+        {
+          "address": "workspace17ylwdm25ag42a87y2kn3y6",
+          "creator": "zen19cqmzezm3u98gewx2k5pkkcpectpvp3vmawsfn",
+          "owners": [
+            "zen19cqmzezm3u98gewx2k5pkkcpectpvp3vmawsfn"
+          ],
+          "child_workspaces": [],
+          "admin_policy_id": "0",
+          "sign_policy_id": "0",
+          "alias": ""
+        },
+        {
+          "address": "workspace17zsz0rjrwfzeejnp8hpp60",
+          "creator": "zen180w660gz2qz8s0drhr5k4646895g7gcljrtsa8",
+          "owners": [
+            "zen180w660gz2qz8s0drhr5k4646895g7gcljrtsa8"
+          ],
+          "child_workspaces": [],
+          "admin_policy_id": "0",
+          "sign_policy_id": "0",
+          "alias": ""
+        },
+        {
+          "address": "workspace1dnqk40tsamaephqtyaa73z",
+          "creator": "zen1n2wr6ze2kjy2wrzkln29fjkqc3ne2guu0ygupd",
+          "owners": [
+            "zen1n2wr6ze2kjy2wrzkln29fjkqc3ne2guu0ygupd"
+          ],
+          "child_workspaces": [],
+          "admin_policy_id": "0",
+          "sign_policy_id": "0",
+          "alias": ""
+        },
+        {
+          "address": "workspace1ew74lxgv2d5y67hx3t24d5",
+          "creator": "zen1dht0qe0209tc8dycp8cfe6s7qt4z7eck0jqv6s",
+          "owners": [
+            "zen1dht0qe0209tc8dycp8cfe6s7qt4z7eck0jqv6s"
+          ],
+          "child_workspaces": [],
+          "admin_policy_id": "0",
+          "sign_policy_id": "0",
+          "alias": ""
+        },
+        {
+          "address": "workspace1kz7h8e5j9sxjf9kmr6jnpd",
+          "creator": "zen1v7tgr4kr2nyrz2u3lp673zey037lwhv5tp4faf",
+          "owners": [
+            "zen1v7tgr4kr2nyrz2u3lp673zey037lwhv5tp4faf"
+          ],
+          "child_workspaces": [],
+          "admin_policy_id": "0",
+          "sign_policy_id": "0",
+          "alias": ""
+        },
+        {
+          "address": "workspace1mphgzyhncnzyggfxmv4nmh",
+          "creator": "zen1vg3nv4xv7v3p9tr5svj33wvhsemdg6k5n0237r",
+          "owners": [
+            "zen1vg3nv4xv7v3p9tr5svj33wvhsemdg6k5n0237r"
+          ],
+          "child_workspaces": [],
+          "admin_policy_id": "0",
+          "sign_policy_id": "0",
+          "alias": ""
+        },
+        {
+          "address": "workspace1tlgm084aa7tpnfte3tfvu9",
+          "creator": "zen1hkr02dfzjzlmna2vlxpdvzzxdrteux0sqe398f",
+          "owners": [
+            "zen1hkr02dfzjzlmna2vlxpdvzzxdrteux0sqe398f"
+          ],
+          "child_workspaces": [],
+          "admin_policy_id": "0",
+          "sign_policy_id": "0",
+          "alias": ""
+        },
+        {
+          "address": "workspace1xklrytgff7w32j52v34w36",
+          "creator": "zen1vvex57wtgl7h26mnyzzk0npctz4jqunla4qrzd",
+          "owners": [
+            "zen1vvex57wtgl7h26mnyzzk0npctz4jqunla4qrzd"
+          ],
+          "child_workspaces": [],
+          "admin_policy_id": "0",
+          "sign_policy_id": "0",
+          "alias": ""
+        },
+        {
+          "address": "workspace1y0tlg2cums0s6jfw7ly0l0",
+          "creator": "zen1xaglsm4lawm8twg69tn8rathj2g45n7ep48ghh",
+          "owners": [
+            "zen1xaglsm4lawm8twg69tn8rathj2g45n7ep48ghh"
+          ],
+          "child_workspaces": [],
+          "admin_policy_id": "0",
+          "sign_policy_id": "0",
+          "alias": ""
+        },
+        {
+          "address": "workspace1ygxaufa0aex4xl9vcaq4pl",
+          "creator": "zen109m25m36sm9wgqpveax8h7kx9ysggvfx5e8rjl",
+          "owners": [
+            "zen109m25m36sm9wgqpveax8h7kx9ysggvfx5e8rjl"
+          ],
+          "child_workspaces": [],
+          "admin_policy_id": "0",
+          "sign_policy_id": "0",
+          "alias": ""
+        }
+      ]
+    },
+    "interchainaccounts": {
+      "controller_genesis_state": {
+        "active_channels": [],
+        "interchain_accounts": [],
+        "ports": [],
+        "params": {
+          "controller_enabled": true
+        }
+      },
+      "host_genesis_state": {
+        "active_channels": [],
+        "interchain_accounts": [],
+        "port": "icahost",
+        "params": {
+          "host_enabled": true,
+          "allow_messages": [
+            "*"
+          ]
+        }
+      }
+    },
+    "mint": {
+      "minter": {
+        "inflation": "0.000000000000000000",
+        "annual_provisions": "0.000000000000000000"
+      },
+      "params": {
+        "mint_denom": "urock",
+        "inflation_rate_change": "0.000000000000000000",
+        "inflation_max": "0.000000000000000000",
+        "inflation_min": "0.000000000000000000",
+        "goal_bonded": "0.670000000000000000",
+        "blocks_per_year": "6311520"
+      }
+    },
+    "nft": {
+      "classes": [],
+      "entries": []
+    },
+    "policy": {
+      "params": {
+        "minimum_btl": "10",
+        "default_btl": "1000"
+      },
+      "port_id": "policy",
+      "policies": [],
+      "actions": [],
+      "sign_methods": []
+    },
+    "slashing": {
+      "params": {
+        "signed_blocks_window": "10000",
+        "min_signed_per_window": "0.500000000000000000",
+        "downtime_jail_duration": "600s",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.005000000000000000"
+      },
+      "signing_infos": [],
+      "missed_blocks": []
+    },
+    "transfer": {
+      "port_id": "transfer",
+      "denom_traces": [],
+      "params": {
+        "send_enabled": true,
+        "receive_enabled": true
+      },
+      "total_escrowed": []
+    },
+    "treasury": {
+      "params": {
+        "mpc_keyring": "",
+        "zr_sign_address": "",
+        "keyring_commission": 10,
+        "keyring_commission_destination": "zen1m3h30wlvsf8llruxtpukdvsy0km2kum8ju4et3",
+        "min_gas_fee": "0.0001urock"
+      },
+      "port_id": "treasury",
+      "keys": [
+        {
+          "id": "1",
+          "workspace_addr": "workspace10j06zdk5gyl6v9ekzwem0v",
+          "keyring_addr": "keyring1k6vc6vhp6e6l3rxalue9v4ux",
+          "type": "KEY_TYPE_ECDSA_SECP256K1",
+          "public_key": "AnI2/gSh/kmAwkRPofStsWQV6Y8e56KTnI/cbQBTgOnl",
+          "index": "0",
+          "sign_policy_id": "0",
+          "zenbtc_metadata": null
+        },
+        {
+          "id": "2",
+          "workspace_addr": "workspace1mphgzyhncnzyggfxmv4nmh",
+          "keyring_addr": "keyring1k6vc6vhp6e6l3rxalue9v4ux",
+          "type": "KEY_TYPE_ECDSA_SECP256K1",
+          "public_key": "Atz+yqoGv/DmB8QCso0Lw+SSP+2mZly1MSARpHozJrTs",
+          "index": "0",
+          "sign_policy_id": "0",
+          "zenbtc_metadata": null
+        },
+        {
+          "id": "3",
+          "workspace_addr": "workspace1xklrytgff7w32j52v34w36",
+          "keyring_addr": "keyring1k6vc6vhp6e6l3rxalue9v4ux",
+          "type": "KEY_TYPE_ECDSA_SECP256K1",
+          "public_key": "AyrGmsuVSsFRuZRXHcgF6vITWkrjvDM/eX079eCC9ZwB",
+          "index": "0",
+          "sign_policy_id": "0",
+          "zenbtc_metadata": null
+        },
+        {
+          "id": "4",
+          "workspace_addr": "workspace17zsz0rjrwfzeejnp8hpp60",
+          "keyring_addr": "keyring1k6vc6vhp6e6l3rxalue9v4ux",
+          "type": "KEY_TYPE_ECDSA_SECP256K1",
+          "public_key": "AgaaH6FWt+kevtWw6u7bxG9pcN625a6uHKJXzd/LE0mx",
+          "index": "0",
+          "sign_policy_id": "0",
+          "zenbtc_metadata": null
+        },
+        {
+          "id": "5",
+          "workspace_addr": "workspace17ylwdm25ag42a87y2kn3y6",
+          "keyring_addr": "keyring1k6vc6vhp6e6l3rxalue9v4ux",
+          "type": "KEY_TYPE_ECDSA_SECP256K1",
+          "public_key": "AhWr3SDwQ3UNwTKgahnolj73SCRbXqDfW4eMYVDaH5JE",
+          "index": "0",
+          "sign_policy_id": "0",
+          "zenbtc_metadata": null
+        },
+        {
+          "id": "6",
+          "workspace_addr": "workspace1y0tlg2cums0s6jfw7ly0l0",
+          "keyring_addr": "keyring1k6vc6vhp6e6l3rxalue9v4ux",
+          "type": "KEY_TYPE_ECDSA_SECP256K1",
+          "public_key": "Ah7LkLXLzlQM4z8X4EgaHK2QEQww57zq+vFEn8bVoWNz",
+          "index": "0",
+          "sign_policy_id": "0",
+          "zenbtc_metadata": null
+        },
+        {
+          "id": "7",
+          "workspace_addr": "workspace14t5fls8s8c54ntjdcxh5x9",
+          "keyring_addr": "keyring1k6vc6vhp6e6l3rxalue9v4ux",
+          "type": "KEY_TYPE_ECDSA_SECP256K1",
+          "public_key": "Aop0/7Y7/7scPqsJXNphABIz5CeaJNKJ0y9iEpWlLcS0",
+          "index": "0",
+          "sign_policy_id": "0",
+          "zenbtc_metadata": null
+        },
+        {
+          "id": "8",
+          "workspace_addr": "workspace1dnqk40tsamaephqtyaa73z",
+          "keyring_addr": "keyring1k6vc6vhp6e6l3rxalue9v4ux",
+          "type": "KEY_TYPE_ECDSA_SECP256K1",
+          "public_key": "Ag+XqcwXCROF6JwFLSqyjttn7HLzQmgrVrHDPW5u6gp0",
+          "index": "0",
+          "sign_policy_id": "0",
+          "zenbtc_metadata": null
+        },
+        {
+          "id": "9",
+          "workspace_addr": "workspace1ew74lxgv2d5y67hx3t24d5",
+          "keyring_addr": "keyring1k6vc6vhp6e6l3rxalue9v4ux",
+          "type": "KEY_TYPE_ECDSA_SECP256K1",
+          "public_key": "Ai9L/f77AZaS6Lo8oyxJmTa1XRKUyv3n2Y22N7qZgGvt",
+          "index": "0",
+          "sign_policy_id": "0",
+          "zenbtc_metadata": null
+        },
+        {
+          "id": "10",
+          "workspace_addr": "workspace15yglyawv9e6csqqqz77euh",
+          "keyring_addr": "keyring1k6vc6vhp6e6l3rxalue9v4ux",
+          "type": "KEY_TYPE_ECDSA_SECP256K1",
+          "public_key": "AuNm9NELNqrXYo0QvSlQHcnOy0azltUp1FKic0P/HesY",
+          "index": "0",
+          "sign_policy_id": "0",
+          "zenbtc_metadata": null
+        },
+        {
+          "id": "11",
+          "workspace_addr": "workspace1tlgm084aa7tpnfte3tfvu9",
+          "keyring_addr": "keyring1k6vc6vhp6e6l3rxalue9v4ux",
+          "type": "KEY_TYPE_ECDSA_SECP256K1",
+          "public_key": "AsZBBN/Rwul8k9MP/lfgwzRh/4aejenrSghy94GPqwgE",
+          "index": "0",
+          "sign_policy_id": "0",
+          "zenbtc_metadata": null
+        },
+        {
+          "id": "12",
+          "workspace_addr": "workspace1ygxaufa0aex4xl9vcaq4pl",
+          "keyring_addr": "keyring1k6vc6vhp6e6l3rxalue9v4ux",
+          "type": "KEY_TYPE_ECDSA_SECP256K1",
+          "public_key": "ApQlWIk2nZ3HT7tBQflJa9zclasC5fKNq3Fa0SCtN8Ng",
+          "index": "0",
+          "sign_policy_id": "0",
+          "zenbtc_metadata": null
+        },
+        {
+          "id": "13",
+          "workspace_addr": "workspace1kz7h8e5j9sxjf9kmr6jnpd",
+          "keyring_addr": "keyring1k6vc6vhp6e6l3rxalue9v4ux",
+          "type": "KEY_TYPE_ECDSA_SECP256K1",
+          "public_key": "A5xswVDV6eyzk7SxNTOP14qobrE2XTm5erhYs1fhWvY2",
+          "index": "0",
+          "sign_policy_id": "0",
+          "zenbtc_metadata": null
+        }
+      ],
+      "key_requests": [
+        {
+          "id": "1",
+          "creator": "zen1t8dzyr806kajqhgmvt6zzleay92ma08se0dma0",
+          "workspace_addr": "workspace10j06zdk5gyl6v9ekzwem0v",
+          "keyring_addr": "keyring1k6vc6vhp6e6l3rxalue9v4ux",
+          "key_type": "KEY_TYPE_ECDSA_SECP256K1",
+          "status": "KEY_REQUEST_STATUS_FULFILLED",
+          "keyring_party_signatures": [
+            "fZbhM0mKIPUchfH9/NkjwLCTFwIF55Eu+K3Qwi4Vb8rRFpRkgCv4PfAExpVziKhhIDsvlWfKH2oo3ci1a5dj2w==",
+            "zQel+Df1s0kdFzFrVzfnZ54OnjAdPdHOnKCTootw2hIg+VvRqwkgbm9U2I0SujdC9l1ZSUA7GQHdknQjlTC4dQ==",
+            "/UJcokcwK3hfxO4SajKPBULiwU8r2iP+sVnOjTahaxIXcpzYGpWBwGyRlSsGw2tAi6gI0LhuWly8cvEmXqPDdw=="
+          ],
+          "reject_reason": "",
+          "index": "0",
+          "sign_policy_id": "0",
+          "zenbtc_metadata": null
+        },
+        {
+          "id": "2",
+          "creator": "zen1vg3nv4xv7v3p9tr5svj33wvhsemdg6k5n0237r",
+          "workspace_addr": "workspace1mphgzyhncnzyggfxmv4nmh",
+          "keyring_addr": "keyring1k6vc6vhp6e6l3rxalue9v4ux",
+          "key_type": "KEY_TYPE_ECDSA_SECP256K1",
+          "status": "KEY_REQUEST_STATUS_FULFILLED",
+          "keyring_party_signatures": [
+            "E+t8jHYLFXPnvS50itdMw8AJJ5C50IjV1SBv0vjNHASuHqDcSktz7ls21fRTtOlY4LTp9jEeYVn0sIz1WVKqMA==",
+            "l4KsRzN1girv/e9E1hSdsHE5/aMHKFoNZvgQxErnbfg0uW0CWHSjoqJAq6oUb2UTkOgbsioVs3xcOxix97knjg==",
+            "nTe/mlSvnwQZ4sTr/CvCNWAZ1xEa4HzOiDWVPvp2eZN7kf7Gf3ha9fYJ2wsKNquO8vQU7ksPJ7/on/mBBNbyHw=="
+          ],
+          "reject_reason": "",
+          "index": "0",
+          "sign_policy_id": "0",
+          "zenbtc_metadata": null
+        },
+        {
+          "id": "3",
+          "creator": "zen1vvex57wtgl7h26mnyzzk0npctz4jqunla4qrzd",
+          "workspace_addr": "workspace1xklrytgff7w32j52v34w36",
+          "keyring_addr": "keyring1k6vc6vhp6e6l3rxalue9v4ux",
+          "key_type": "KEY_TYPE_ECDSA_SECP256K1",
+          "status": "KEY_REQUEST_STATUS_FULFILLED",
+          "keyring_party_signatures": [
+            "ELGv4HfrMBE8xRu1K0MH1psnwYRlprlFrZxsFXCuHXoPZulhUaMkl/jpU423208jX3y7TSJYrzbzh3pNEUeXMw==",
+            "iO+flVbANHUOLrhSD6KpNwEUwEmiBdHcG1HNxPnhAzg+esDmkj6SBFVWLvhNz9oPGgJ3mJWoY9J6yY/CIbtLdA==",
+            "tHJxBVqy2HQ6ijBIrnBculEza3XSI2mWKk2dCr2961FuMx/qoM6TEhDrAVL9kZZ+nPNkmjOPGKzIHq4SmFLyEA=="
+          ],
+          "reject_reason": "",
+          "index": "0",
+          "sign_policy_id": "0",
+          "zenbtc_metadata": null
+        },
+        {
+          "id": "4",
+          "creator": "zen180w660gz2qz8s0drhr5k4646895g7gcljrtsa8",
+          "workspace_addr": "workspace17zsz0rjrwfzeejnp8hpp60",
+          "keyring_addr": "keyring1k6vc6vhp6e6l3rxalue9v4ux",
+          "key_type": "KEY_TYPE_ECDSA_SECP256K1",
+          "status": "KEY_REQUEST_STATUS_FULFILLED",
+          "keyring_party_signatures": [
+            "sF9stBCITNTTerg33+/ZUjJ+KAPYLEV1Z8Wva4w4xiiQJtgYvSQADAIY0ViXNXNlc2Hw73bLJ3EfdixYDmvoBw==",
+            "CF511zwQmVfkViBg3HThoPsLy2iH/OcBDIqWt6sRTf4HFtrl9VWyi4OWnzvIpNxWg9RFjh+Sj3zebXvEQ0BNng==",
+            "tScYrjw5F7GE2VfXcNyHcNCwjTgQmorSqtyQl4F6k9BScfmjZznS8GAdmUf58+fMFPhoJSrvZDbGh+OhcvEkTg=="
+          ],
+          "reject_reason": "",
+          "index": "0",
+          "sign_policy_id": "0",
+          "zenbtc_metadata": null
+        },
+        {
+          "id": "5",
+          "creator": "zen19cqmzezm3u98gewx2k5pkkcpectpvp3vmawsfn",
+          "workspace_addr": "workspace17ylwdm25ag42a87y2kn3y6",
+          "keyring_addr": "keyring1k6vc6vhp6e6l3rxalue9v4ux",
+          "key_type": "KEY_TYPE_ECDSA_SECP256K1",
+          "status": "KEY_REQUEST_STATUS_FULFILLED",
+          "keyring_party_signatures": [
+            "wsddiGFX59yLrVqggEhhcfhjziQnovMGaOuI+TM/XZGpQJ4VmAOsNSvAkVa0IRq0SPNMy6d97ueFGMpbLIB7Pg==",
+            "qsyL9DXPedY/GmeRbnqeR1Sj1PZvoghS+rHMgMBVUMXYhyMqccdCzVgDPy05czKLezRVWh8fnJb0wq8emjVV4A==",
+            "x0XsxREg4qP/2Ekt2str4SD132b7hY+YPANQogGeTUGoiwlLEvrnMTgnYFgt8xN+1271VjWjt6ryL/Y2kRsaXA=="
+          ],
+          "reject_reason": "",
+          "index": "0",
+          "sign_policy_id": "0",
+          "zenbtc_metadata": null
+        },
+        {
+          "id": "6",
+          "creator": "zen1xaglsm4lawm8twg69tn8rathj2g45n7ep48ghh",
+          "workspace_addr": "workspace1y0tlg2cums0s6jfw7ly0l0",
+          "keyring_addr": "keyring1k6vc6vhp6e6l3rxalue9v4ux",
+          "key_type": "KEY_TYPE_ECDSA_SECP256K1",
+          "status": "KEY_REQUEST_STATUS_FULFILLED",
+          "keyring_party_signatures": [
+            "z4dryGbkhzcgaD1jvl0LGM4BN70AHd0iMIUyEGugV8BsDLPUsC/CLnnbEX+j490UiPwyLUmbWB7LKIlZygrNGQ==",
+            "Z6OpWxlz1a6opWAMf0rJh5u9RXrEKPI0jzDxuFzdts/9dj64ERO278GWZHXTZNZbBuGMdMnPvYmrUhD++Gc50A==",
+            "fvAQSpb8+hFDuoPAc3eO2EtO6OkpCJ8HHnmOc9m8WzL5tC94+NHlECrlEzPY5WIdAg2Sa4eI4QUeuznqHhhgiQ=="
+          ],
+          "reject_reason": "",
+          "index": "0",
+          "sign_policy_id": "0",
+          "zenbtc_metadata": null
+        },
+        {
+          "id": "7",
+          "creator": "zen1fmqq8hger6sqgtg34ekqev9k55pcgh63xawndg",
+          "workspace_addr": "workspace14t5fls8s8c54ntjdcxh5x9",
+          "keyring_addr": "keyring1k6vc6vhp6e6l3rxalue9v4ux",
+          "key_type": "KEY_TYPE_ECDSA_SECP256K1",
+          "status": "KEY_REQUEST_STATUS_FULFILLED",
+          "keyring_party_signatures": [
+            "YRJb+J8xAKsbm7Z77HKL6T6x/aYHQBm8z6r/p9OTvdX6SOvNctkctlWMYouaJxZ+2adLnX9ze01WBl3JtSpLCQ==",
+            "BlMi3iwycj1o5RMWJMQloCZ8jlhvH7xo//wTWz64iu678HhKFl9a21wqPnp0zMxeMWbbSsM+xs/JqJimqMbGoA==",
+            "RlKEChg9ezTjH4HqJ5GFCc99AppCVL8Qd003VRXUhNFucUfygz5tG7uq1FQWLW3x+FhPkZcz3duQ6cxM5F8fIQ=="
+          ],
+          "reject_reason": "",
+          "index": "0",
+          "sign_policy_id": "0",
+          "zenbtc_metadata": null
+        },
+        {
+          "id": "8",
+          "creator": "zen1n2wr6ze2kjy2wrzkln29fjkqc3ne2guu0ygupd",
+          "workspace_addr": "workspace1dnqk40tsamaephqtyaa73z",
+          "keyring_addr": "keyring1k6vc6vhp6e6l3rxalue9v4ux",
+          "key_type": "KEY_TYPE_ECDSA_SECP256K1",
+          "status": "KEY_REQUEST_STATUS_FULFILLED",
+          "keyring_party_signatures": [
+            "xJxaN/IvB2LmTwiiZLE9GeveFBX0DhleWG1EdEqa5qF1U85u46YIi/7utH6BWQ2/aG9h9vJrGC6Bq9ZuSZZDqg==",
+            "LS7Gqow7VWsxgqz25WRjKP2d7qwapef6Ls2mZFsxnyXPut2xJgT/m411d93NUz2dYRQuLxpngoFWC97+tXOxZw==",
+            "xyfry9LfwVBRwiCSOO1FS1lk2H1gl3LVWFsj5wnjRgyxtEPjo8I+A/ItzTxml+v75ls7F95pJvR4RoC7C2KR5Q=="
+          ],
+          "reject_reason": "",
+          "index": "0",
+          "sign_policy_id": "0",
+          "zenbtc_metadata": null
+        },
+        {
+          "id": "9",
+          "creator": "zen1dht0qe0209tc8dycp8cfe6s7qt4z7eck0jqv6s",
+          "workspace_addr": "workspace1ew74lxgv2d5y67hx3t24d5",
+          "keyring_addr": "keyring1k6vc6vhp6e6l3rxalue9v4ux",
+          "key_type": "KEY_TYPE_ECDSA_SECP256K1",
+          "status": "KEY_REQUEST_STATUS_FULFILLED",
+          "keyring_party_signatures": [
+            "hfRC1sHmH2JsqWejxftZijkLdNrPlxlS5ULhEgMIHRdQAOEhGegTbjOB6FoR2OM9iPgkVfckb+6iXiSEHkolmw==",
+            "auBZeVKRRvpza0kQrMT4EfPnv7T5812h4xO+7u3A69P1Tnyw4pU/Jsr1yQH/mrG4ASNPVciVrLL2fgtLe3C5vQ==",
+            "nQeGmv87A0FYIed06KHMdjvQcUpcAxJYJ19sZi0nBEgHmGdsboi3IlnmqxxXl8YX//75mt29XHWAM83laJ4AIw=="
+          ],
+          "reject_reason": "",
+          "index": "0",
+          "sign_policy_id": "0",
+          "zenbtc_metadata": null
+        },
+        {
+          "id": "10",
+          "creator": "zen187qlg50zd3jlapft0dlfgphhm67pac9vxs8xd8",
+          "workspace_addr": "workspace15yglyawv9e6csqqqz77euh",
+          "keyring_addr": "keyring1k6vc6vhp6e6l3rxalue9v4ux",
+          "key_type": "KEY_TYPE_ECDSA_SECP256K1",
+          "status": "KEY_REQUEST_STATUS_FULFILLED",
+          "keyring_party_signatures": [
+            "xdMsMxMYWF+3MB8vuqHsO/07+1Z1Rne59zS3+1o5GA6L5/swuU2i1RBHSRzc7WvgLljUOHY2yWy2lYznYq460w==",
+            "TUOZfCR1ElTfJw/YfYs8l4Mp2yqSPrlWRTCmUyzfc5vCikKdyuRmcy96xD5Ii1PRDcyhRbi3kmCiytGPavyZgw==",
+            "lCc17i74lZKUUvonfnLBB1TyfA0o5GPqa+8Dq3Xhqj9ntbJkyex5vYjTM8H0l5vkFixZ7RbnVYUXeqbMfDPqWQ=="
+          ],
+          "reject_reason": "",
+          "index": "0",
+          "sign_policy_id": "0",
+          "zenbtc_metadata": null
+        },
+        {
+          "id": "11",
+          "creator": "zen1hkr02dfzjzlmna2vlxpdvzzxdrteux0sqe398f",
+          "workspace_addr": "workspace1tlgm084aa7tpnfte3tfvu9",
+          "keyring_addr": "keyring1k6vc6vhp6e6l3rxalue9v4ux",
+          "key_type": "KEY_TYPE_ECDSA_SECP256K1",
+          "status": "KEY_REQUEST_STATUS_FULFILLED",
+          "keyring_party_signatures": [
+            "nXiuZuoKHFY/6YfdMAu2otxYRChSoGyfyaLOop7/3gvhd8whKhRShfGszNOKyktIaHB0F6KamJIH9IzsClDXGg==",
+            "7LkxIki4VDFGYKH9GOxkdMUwlHc3N16Bg1sCC9ok5fg9ZfILUfoOJg0eMPOQK9EQlb2+7h4JfvBb/twyJOOdtQ==",
+            "rZOviGGmGJWAB8DPRex5loFZTyVNRx8ivyr+zHmJpjjHtSMxr/by/GqiO9cf4OOqNxjPeHAEZtG0lZmacIlUXw=="
+          ],
+          "reject_reason": "",
+          "index": "0",
+          "sign_policy_id": "0",
+          "zenbtc_metadata": null
+        },
+        {
+          "id": "12",
+          "creator": "zen109m25m36sm9wgqpveax8h7kx9ysggvfx5e8rjl",
+          "workspace_addr": "workspace1ygxaufa0aex4xl9vcaq4pl",
+          "keyring_addr": "keyring1k6vc6vhp6e6l3rxalue9v4ux",
+          "key_type": "KEY_TYPE_ECDSA_SECP256K1",
+          "status": "KEY_REQUEST_STATUS_FULFILLED",
+          "keyring_party_signatures": [
+            "WeV2Jfg3d5c9bElYISZTjGlwhTTj0b0x21ZTcENiPUEPKyRQZ1lMFYOQMUoWRPVLMvleorCvgDzsHO9SHvvFwg==",
+            "Dwygip2V8hcNeYnrI991sAzRv5xXDE1yhlgQ75UTRR16ixCdg7wvkkrJ0GUBihv+K1s8BdGHk8Mx9PI6vOqpdA==",
+            "NFZZ1PGY/OqciFPNeNnwdGm6bwQhfNYFH5edNTo52PKxubfUrlJ1NlfqPrS796WzAoM4g33RK9Q0wMKVpkW39g=="
+          ],
+          "reject_reason": "",
+          "index": "0",
+          "sign_policy_id": "0",
+          "zenbtc_metadata": null
+        },
+        {
+          "id": "13",
+          "creator": "zen1v7tgr4kr2nyrz2u3lp673zey037lwhv5tp4faf",
+          "workspace_addr": "workspace1kz7h8e5j9sxjf9kmr6jnpd",
+          "keyring_addr": "keyring1k6vc6vhp6e6l3rxalue9v4ux",
+          "key_type": "KEY_TYPE_ECDSA_SECP256K1",
+          "status": "KEY_REQUEST_STATUS_FULFILLED",
+          "keyring_party_signatures": [
+            "GENYaqS50LNTcnByrU2Z8Mndq9h3NdwbBA9N2l+e8TeP56OQOZG/Rnp3NjrzfoXEoKY+YSwt6jhLTSlasBzFNQ==",
+            "wy1P6cHgnMvaWhJ1Qnu5MeN45XPVX81jubFB8H30AHwUohqSBOCPg905hZh7p4r7Cz6TPx9KE8bgR6pl159pEQ==",
+            "AYKZp4GF/XxKia6QimUvm8bHfN5qzQnd+CEw1NMnEorlWva/pyX2QbOKEEbyDfocQLq3SRqr5hMuPM3OBP6JaA=="
+          ],
+          "reject_reason": "",
+          "index": "0",
+          "sign_policy_id": "0",
+          "zenbtc_metadata": null
+        }
+      ],
+      "sign_requests": [],
+      "sign_tx_requests": [],
+      "ica_tx_requests": []
+    },
+    "upgrade": {},
+    "validation": {
+      "params": {
+        "unbonding_time": "1209600s",
+        "max_validators": 75,
+        "max_entries": 7,
+        "historical_entries": 10000,
+        "bond_denom": "urock",
+        "min_commission_rate": "0.050000000000000000"
+      },
+      "last_total_power": "0",
+      "last_validator_powers": [],
+      "validators": [],
+      "delegations": [],
+      "unbonding_delegations": [],
+      "redelegations": [],
+      "exported": false,
+      "HVParams": {
+        "AVSRewardsRate": "0.00",
+        "BlockTime": 5,
+        "ZenBTCParams": {
+          "zenBTCEthContractAddr": "",
+          "zenBTCDepositKeyringAddr": "",
+          "zenBTCMinterKeyID": 0
+        }
+      }
+    },
+    "vesting": {},
+    "wasm": {
+      "params": {
+        "code_upload_access": {
+          "permission": "Nobody",
+          "addresses": []
+        },
+        "instantiate_default_permission": "Nobody"
+      },
+      "codes": [],
+      "contracts": [],
+      "sequences": []
+    },
+    "zenbtc": {
+      "params": {}
+    }
+  }
+}
